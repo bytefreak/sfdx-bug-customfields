@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sun_Product__c</fullName>
+    <externalId>false</externalId>
+    <label>CC Product</label>
+    <referenceTo>ccrz__E_Product__c</referenceTo>
+    <relationshipLabel>B2B Product Country Attributes</relationshipLabel>
+    <relationshipName>sun_Product_Country_Attributes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

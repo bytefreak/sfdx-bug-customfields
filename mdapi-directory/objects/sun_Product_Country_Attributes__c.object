@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>sun_Assortment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Assortment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>sun_Assortment_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>sun_Country_ISO_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Country ISO Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sun_Lead_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sun_Product_Country_Attributes_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Product Country Attributes Id</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>sun_Product__c</fullName>
+        <externalId>false</externalId>
+        <label>CC Product</label>
+        <referenceTo>ccrz__E_Product__c</referenceTo>
+        <relationshipLabel>B2B Product Country Attributes</relationshipLabel>
+        <relationshipName>sun_Product_Country_Attributes</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+</CustomObject>
